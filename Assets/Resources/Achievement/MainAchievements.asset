@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f858b9367641240a12cffd2ad7342b, type: 3}
+  m_Name: MainAchievements
+  m_EditorClassIdentifier: 
+  achievements:
+  - title: "\u521D\u5165\u8305\u5E90"
+    id: PLANT_5_CROP
+    description: "\u7D2F\u8BA1\u79CD\u690D\u4E94\u4E2A\u4F5C\u7269"
+    targetValue: 5
+    isSecret: 0
+    icon: {fileID: 21300000, guid: fe4382e426a26aa4c9a9f020f3f6642f, type: 3}
+    isUnlocked: 0
+  - title: "\u4E94\u8C37\u4E30\u767B"
+    id: GOT_5_CROP
+    description: "\u6536\u83B7\u4E94\u6B21\u4F5C\u7269"
+    targetValue: 5
+    isSecret: 0
+    icon: {fileID: 21300000, guid: 9164f23087283274e85d615b7976da8d, type: 3}
+    isUnlocked: 0
+  - title: "\u4E8B\u534A\u529F\u500D"
+    id: LINE_UPGRADE
+    description: "\u5DE5\u5177\u5347\u7EA71"
+    targetValue: 1
+    isSecret: 0
+    icon: {fileID: 21300000, guid: 5b620fdfdc0647848acdea6f6b3738b5, type: 3}
+    isUnlocked: 0
+  - title: "\u7EB5\u6A2A\u9621\u964C"
+    id: SQUARE_UPGRADE
+    description: "\u5DE5\u5177\u5347\u7EA72"
+    targetValue: 1
+    isSecret: 0
+    icon: {fileID: 21300000, guid: 82b40e27e2625cf409c9d79d31e9ef7e, type: 3}
+    isUnlocked: 0
+  - title: "\u89C4\u6A21\u521D\u5177"
+    id: FARM_UPGRADE1
+    description: "\u5347\u7EA7\u4E00\u6B21\u519C\u573A"
+    targetValue: 1
+    isSecret: 0
+    icon: {fileID: 21300000, guid: caaf163992ee7064fbfe801480d694c2, type: 3}
+    isUnlocked: 0
+  - title: "\u519C\u4E1A\u5927\u4EA8"
+    id: FARM_UPGRADE2
+    description: "\u5347\u7EA7\u4E09\u6B21\u519C\u573A"
+    targetValue: 3
+    isSecret: 0
+    icon: {fileID: 21300000, guid: add652837fbd26747bc4d898a912edfa, type: 3}
+    isUnlocked: 0

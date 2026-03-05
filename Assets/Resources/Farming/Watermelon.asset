@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Watermelon
+  m_EditorClassIdentifier: 
+  cropName: "\u897F\u74DC"
+  id: WATERMELON
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 811486179896219106, guid: 0f9b332c22e06154082c8e303f74ddda, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 8815809423406025836, guid: bf8b24cdac1d43d4c9808706e238a6b0, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6222903117783871941, guid: 7733cc2588370c044a11e4ca24a9224f, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: 7332ac791834ee74a8dbcb1d7503e1d8, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 6058648456153138765, guid: 7dd2ad44a411c634aa70883943c5d7b0, type: 3}
+    DeadPrefab: {fileID: 1054843007879924111, guid: 0b18c164c95d9c24785bbb50d70411e5, type: 3}

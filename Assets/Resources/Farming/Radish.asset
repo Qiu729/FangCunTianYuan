@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Radish
+  m_EditorClassIdentifier: 
+  cropName: "\u5C0F\u841D\u535C"
+  id: RADISH
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 8003585497390373479, guid: 2ea54c5bf3ec79248b878f031b91d771, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 1268003838616080238, guid: c2b0d1c41cf032d4a807ea0142dec4f0, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6528862615966243953, guid: dec28b3285fa96343964ca8a3133bf2a, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: 2f9b9ed09f0a9e740b7108793dea3d0b, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 2275888592959834820, guid: 7d52523b14d84c9468a33a7a449686bc, type: 3}
+    DeadPrefab: {fileID: 4798467144594877938, guid: b14900caf3bd97d4b8bd73b7ba12f691, type: 3}

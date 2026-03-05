@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Crop 1
+  m_EditorClassIdentifier: 
+  cropName: Crop1
+  id: CROP 1
+  growStages:
+  - Name: Seed
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 2
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4307717852102337572, guid: 4f25ab7bf2f355240ad0620f88fc0db4, type: 3}
+    DeadPrefab: {fileID: 4307717852102337572, guid: 5eb0f13be431886468bd5bdbdf833b8d, type: 3}
+  - Name: Harvest
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 3
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: f3a55a56b173428429f2594116987e23, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 4307717852102337572, guid: 8fc3cdac8bb61eb45b28c6b5cf4a2163, type: 3}
+    DeadPrefab: {fileID: 4307717852102337572, guid: 9bc0f8e6926523d4aaa49de1b1f256a1, type: 3}

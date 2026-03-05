@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Cabbage
+  m_EditorClassIdentifier: 
+  cropName: "\u7518\u84DD"
+  id: CABBAGE
+  growStages:
+  - Name: seed
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 5909580662600081061, guid: ccd20f66dcb740045ad9f9874361e979, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: "\u5E7C\u82D7"
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4373566395858437875, guid: 8250c16938039e84b80fba768d75ec4a, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: "\u58EE\u5E74"
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6687172755347135335, guid: 21d899bf6db3664448fe8510670f55f7, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: "\u7ED3\u679C"
+    DurationDays: 1
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: c4e96bf02e8e54242b2b9a2fc414a629, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 7079242797165468661, guid: 4806e9a46f55d4248bb30e252c5fde74, type: 3}
+    DeadPrefab: {fileID: 1807582937803513036, guid: 16c15ee3be10bf6408195f7e8b0ca961, type: 3}

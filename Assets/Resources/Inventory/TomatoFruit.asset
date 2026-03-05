@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88face035baab8049a3317728de58256, type: 3}
+  m_Name: TomatoFruit
+  m_EditorClassIdentifier: 
+  objectName: "\u897F\u7EA2\u67FF"
+  id: TOMATOFRUIT
+  type: 1
+  icon: {fileID: 21300000, guid: 09b4ef1362c9a484fa27e40656e31c4b, type: 3}
+  maxStack: 100
+  canBeBuy: 0
+  goodsType: 0
+  buyPrice: 0
+  canBeSold: 1
+  sellPrice: 10
+  isPurchaseLimited: 0
+  purchaseLimitAmount: 0
+  cropData: {fileID: 0}
+  showID: 0

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Cucumber
+  m_EditorClassIdentifier: 
+  cropName: "\u9EC4\u74DC"
+  id: CUCUMBER
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 5115051728151514072, guid: bb8404175e47ad44fbf0c3a69c891557, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6965152507812306138, guid: fcd84a2413c010f4aa32b1819b0d8351, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 3526639983714946361, guid: 34441c2d66c38824284dd31bc9d3ad59, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: f0cc7b2614b50ca4b9fe1fe8365208ed, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 6357193424859474784, guid: 7172679c3b5fb8b42b34761afad5242a, type: 3}
+    DeadPrefab: {fileID: 8896118084896621447, guid: 4999b86b523096744a5e63d58e049551, type: 3}

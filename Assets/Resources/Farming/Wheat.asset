@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Wheat
+  m_EditorClassIdentifier: 
+  cropName: "\u6C34\u7A3B"
+  id: WHEAT
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6883503885497991844, guid: 56aaf90f59e7ddd4697c5df1c9e3a2f6, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 2500967847786762596, guid: 42a73693396e1f047ba69cbd364fa8b6, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6878470818770753200, guid: 70ba736968b741048950becb579ff04a, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: 9d50263af9c8bd1469307ca61a94a8ed, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 6825696007021522362, guid: 77d777b8967ba224f92e9066ff0cd1e6, type: 3}
+    DeadPrefab: {fileID: 7646357700288053929, guid: 6793b2836c0b4f84eaf91b3ee13c5886, type: 3}

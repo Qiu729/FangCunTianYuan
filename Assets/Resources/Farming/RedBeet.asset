@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: RedBeet
+  m_EditorClassIdentifier: 
+  cropName: "\u7EA2\u751C\u83DC"
+  id: REDBEET
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6196219013182391607, guid: cac738ffd638ace43bcf5ffb9c921295, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4734938060356958364, guid: 0cbe35cae6971cf4c93993dcc2f643a3, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4598558354117422620, guid: 95356fc9cd74c0e409dd10aa68a2593f, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: fcb65d0840d59464696c4d581f3de0c8, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 344858206615121184, guid: 1128e471a69432c45838905e19d16c0b, type: 3}
+    DeadPrefab: {fileID: 3888138108701155302, guid: 1d5941f0acdad914b894aaf93dfec0e9, type: 3}

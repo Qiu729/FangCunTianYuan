@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88face035baab8049a3317728de58256, type: 3}
+  m_Name: Seed 3
+  m_EditorClassIdentifier: 
+  objectName: Seed3
+  id: SEED3
+  type: 0
+  icon: {fileID: 21300000, guid: f9f21d850a836cd4fb3a34278a6338c8, type: 3}
+  maxStack: 100
+  canBeBuy: 1
+  goodsType: 0
+  buyPrice: 3
+  canBeSold: 1
+  sellPrice: 3
+  cropData: {fileID: 11400000, guid: e8ca90a1a8ca0d74c845c517a2144364, type: 2}
+  showID: 0

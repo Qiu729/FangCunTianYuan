@@ -1,0 +1,4 @@
+repository "俯仰视角种田demo@tj_wasd_ss@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: TestCrop
+  m_EditorClassIdentifier: 
+  cropName: TestCrop
+  id: TESTCROP
+  growStages:
+  - Name: Seed
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 1
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4307717852102337572, guid: ef59196146f53064899473fcecfa0608, type: 3}
+    DeadPrefab: {fileID: 4307717852102337572, guid: dc68181bee52cd8488cb003e51085fb5, type: 3}
+  - Name: Mature
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 2
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 4307717852102337572, guid: 982620df72ef8ae4b91a378717bb043c, type: 3}
+    DeadPrefab: {fileID: 4307717852102337572, guid: f9de4587bfdc2a24f861a9d863db5b9f, type: 3}
+  - Name: Harvest
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: 945a32c4e6b24e9489329b301776a15f, type: 2}
+    fruitCount: 2
+    NormalPrefab: {fileID: 4307717852102337572, guid: 401fdf16fdbac6946ba7d2a85e6abf86, type: 3}
+    DeadPrefab: {fileID: 4307717852102337572, guid: c35c51e6401eab54ab29f41a3e6c6ea5, type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee1731d092d21488ee2c36b081297b, type: 3}
+  m_Name: Sunflower
+  m_EditorClassIdentifier: 
+  cropName: "\u5411\u65E5\u8475"
+  id: SUNFLOWER
+  growStages:
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 1258029436636326198, guid: 1b502363fbc1ae94fa64cabffbc25ac8, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 8618995988737460983, guid: dc1f1fcdd043f4247a4a9eaaecbebee1, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 1
+    willDie: 0
+    MaxUnwateredDays: 0
+    isLastStage: 0
+    fruitData: {fileID: 0}
+    fruitCount: 0
+    NormalPrefab: {fileID: 6786976142376105960, guid: 984484d77be3fa64c9e9a5a57c8e03c6, type: 3}
+    DeadPrefab: {fileID: 0}
+  - Name: 
+    DurationDays: 0
+    willDie: 1
+    MaxUnwateredDays: 2
+    isLastStage: 1
+    fruitData: {fileID: 11400000, guid: 27f9c8bc6613c344787c08c5774506b9, type: 2}
+    fruitCount: 1
+    NormalPrefab: {fileID: 688265627342459041, guid: 566811aad5563b34a8520e77e48c1a57, type: 3}
+    DeadPrefab: {fileID: 1028185480535161240, guid: 5fac58ae4f5f89040a2aa846f27811c8, type: 3}
